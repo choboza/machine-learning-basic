@@ -1,0 +1,18 @@
+데이터 셋을 어떻게 학습하냐에 따른 분류이다. 
+머신러닝에서 데이터를 한번의 학습으로 최적화 시킨다는 것은 어렵다. 그래서 반복벅 학습이 필요하다.
+
+epoch는 전체의 데이터 셋을 몇번 학습하냐는 기준이다. 
+Ex) epochs = 200는 전체 데이터 셋을 200번 학습을 한다는 것이다. 
+
+하지만 학습을 할 때에 전체 데이터 셋을 한번에 학습한다는 것은 쉽지 않다. 메모리의 사양도 시간에도.
+그래서 데이터를 나눠서 학습을 한다. 
+
+batch size 각 batch마다 주는 데이터의 사이즈이다. (보통 mini batch라고 한다.) 
+literatio는 한번의 epoch(전체 데이터에 대한 학습)를 나눠서 학습하는 횟수이다. 
+Ex) 데이터 2000개의, batch size = 500이면 => mini batch(500개의 데이터)를 4번에 literatio를 걸쳐 한번의 epoch를 실행하는 것이다.
+
+정리하여 200epoch는 전체 데이터 셋을 200번 반복 학습한다는 것 이때 batch size =500은 500개씩 4번의 literatio를 진행하는 것.
+그럼 200epoch는 500 batch size에서 800번 literatio를 진행한다는 것이다. 
+
+
+출처[epoch, batch size, literatio](https://m.blog.naver.com/qbxlvnf11/221449297033)
