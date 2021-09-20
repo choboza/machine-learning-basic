@@ -15,4 +15,4 @@ Ex) 데이터 2000개의, batch size = 500이면 => mini batch(500개의 데이�
 그럼 200epoch는 500 batch size에서 800번 literatio를 진행한다는 것이다. 
 
 
-출처[epoch, batch size, literatio](https://m.blog.naver.com/qbxlvnf11/221449297033)
+출처(epoch, batch size, literatio)[https://m.blog.naver.com/qbxlvnf11/221449297033]
